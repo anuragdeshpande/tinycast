@@ -548,6 +548,7 @@
 		D6D8169527668572F0073F94 /* RelaunchRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01488803F8025B0523D44BA /* RelaunchRunner.swift */; };
 		D7293913917ABBCD527EB615 /* CalcToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F2E06B7C8613EB3096B94B /* CalcToken.swift */; };
 		D736A0FE574A343AA0FD3911 /* AppIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E58EBB08450BA3426DF0565 /* AppIndex.swift */; };
+		D738B89314B6B70C9AEA821C /* LauncherPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111E4ACBB15C9F6341F1D7CE /* LauncherPath.swift */; };
 		D9113113F828FD6983715D6B /* UninstallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F2B0F5FDD503E6BB739A47 /* UninstallView.swift */; };
 		D929CEAC227F3C88BBC134BF /* AIModelMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539938F5D4D2AFEE587113D3 /* AIModelMenu.swift */; };
 		D99DAF62B746E6009E1BFB1F /* QuickAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A4DEF28F120FE354EB5599 /* QuickAction.swift */; };
@@ -724,6 +725,7 @@
 		0F5AFB680B55BBAFF2207F99 /* NotesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesCoordinator.swift; sourceTree = "<group>"; };
 		102B53830D247FAE19479BCA /* ThumbnailCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailCache.swift; sourceTree = "<group>"; };
 		106F9FEF3F0C36E0C5686DA7 /* AIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIRequest.swift; sourceTree = "<group>"; };
+		111E4ACBB15C9F6341F1D7CE /* LauncherPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherPath.swift; sourceTree = "<group>"; };
 		112551581ECF83B53D405334 /* BackupSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupSettingsView.swift; sourceTree = "<group>"; };
 		112FAE46D58E17331C1CEEAF /* WindowLayoutStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowLayoutStore.swift; sourceTree = "<group>"; };
 		114F2E3148CA76595B795B37 /* PinnedEmojiStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedEmojiStore.swift; sourceTree = "<group>"; };
@@ -2986,6 +2988,7 @@
 				0437C802C1F3E33E8532A7E3 /* Fallback.swift */,
 				3FE591549F24AE554C13CD0C /* FavoriteSlots.swift */,
 				22701685D1187235DA195F3B /* LauncherOrder.swift */,
+				111E4ACBB15C9F6341F1D7CE /* LauncherPath.swift */,
 				0EDB1EEB97CC5F6B0B81FFD6 /* LauncherRankingStore.swift */,
 				C8358E65DAC02F974829288B /* ScriptRomanization.swift */,
 				ABB9DB77DCE25C41D86BB955 /* SearchRelevance.swift */,
@@ -3554,6 +3557,7 @@
 				C05022DE7B77920ECFB177EE /* LauncherItemsTable.swift in Sources */,
 				D1F9C28CA4048480DB818EE9 /* LauncherList.swift in Sources */,
 				CD992176EA721B3DC30FE9FF /* LauncherOrder.swift in Sources */,
+				D738B89314B6B70C9AEA821C /* LauncherPath.swift in Sources */,
 				633DCA2F00A274C375EB4423 /* LauncherRankingStore.swift in Sources */,
 				7FF6A0A4702E1C1365F2D76A /* LauncherScreen.swift in Sources */,
 				67516BE31774EE56EE2173BA /* LeadCard.swift in Sources */,

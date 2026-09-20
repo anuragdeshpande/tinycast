@@ -254,7 +254,7 @@ private struct AppRow: View {
             Text(app.name)
                 .font(metrics.typography.rowTitle)
                 .lineLimit(1)
-            if let subtitle = app.subtitle {
+            if let subtitle = app.displaySubtitle {
                 Text(subtitle)
                     .font(metrics.typography.rowTrailing)
                     .foregroundStyle(.secondary)

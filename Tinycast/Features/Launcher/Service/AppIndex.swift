@@ -158,6 +158,14 @@ struct AppEntry: Identifiable, Hashable, Sendable {
 
     var kindLabel: String { ownerName ?? kind.descriptor.label }
 
+    var displaySubtitle: String? {
+        subtitle
+            ?? LauncherPath.subtitle(
+                isFileBacked: !kind.descriptor.isSymbolIcon,
+                path: url.path,
+                homeDirectory: NSHomeDirectory())
+    }
+
     /// The hotkey action for this entry, or nil when the entry has no addressable action.
     var hotKeyAction: HotKeyAction? {
         switch kind {

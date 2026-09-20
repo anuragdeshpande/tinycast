@@ -130,3 +130,29 @@ Each item is explained in [testing.md](docs/testing.md#definition-of-done).
 - `./Scripts/lint.sh` is clean.
 - `grep -rln 'import AppKit\|import SwiftUI\|import Cocoa' Tinycast/Features/*/Model/` returns nothing.
 - Any doc your change made wrong is fixed in the same commit.
+
+## Repository remotes
+
+- **`origin`** is the working fork: `https://github.com/anuragdeshpande/tinycast.git`.
+- **`upstream`** is the source repository: `https://github.com/abue-ammar/tinycast.git`.
+- Keep the fork current by fetching upstream periodically, reviewing incoming changes, and
+  integrating them into the local branch before pushing the synchronized result to `origin`.
+- If `upstream` is not configured locally, add it with:
+  `git remote add upstream https://github.com/abue-ammar/tinycast.git`.
+
+## Agent skills
+
+### Issue tracker
+
+Issues and specs live in GitHub Issues; use the `gh` CLI. See `docs/agents/issue-tracker.md`.
+
+### Domain docs
+
+This is a single-context repository with root `CONTEXT.md` and `docs/adr/` guidance. See
+`docs/agents/domain.md`.
+
+### Large files
+
+For any file over 500 lines, ask for approval before delegating a sub-agent refactor to break
+large classes into smaller classes in a relevant package. Keep this requirement in mind while
+editing so unnecessary refactors are avoided.
